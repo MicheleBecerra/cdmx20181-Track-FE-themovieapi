@@ -1,0 +1,51 @@
+.jumbotron{
+    text-align: center ;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height:1000px;
+    background-image: url("../imagenes/tapeteFondo.jpg");
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+      padding-bottom: 80px;
+  }
+  .navbar {
+      height: 80px;
+      padding: 0;
+      margin: 0;
+  }
+  .grid {
+    /* Grid Fallback */
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* Supports Grid */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 8em;
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  
+  .module {
+    /* Demo-Specific Styles */
+    background: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+
+  }
+  
+  /* If Grid is supported, remove the margin we set for the fallback */
+  @supports (display: grid) {
+    .module {
+      margin: 0;
+    }
+  }
