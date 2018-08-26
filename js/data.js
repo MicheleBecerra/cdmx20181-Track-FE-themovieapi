@@ -1,10 +1,12 @@
-const init = () => {
-  const url ='https://www.omdbapi.com/?s=the+strain&plot=full&apikey=ea7bbac6'
-  // 'https://www.omdbapi.com/?apikey=${apikey}&s=${search}=full&type:series';
+const apikey = 'ea7bbac6'
+let search = ' '
+
+const init = (api, search) => {
+  let url = 'https://www.omdbapi.com/?apikey=' + api + '&s=' + search ;
 
   global.getData(url).then((data) => {
-    // console.log(data.Search)
     render(data.Search)
+  //console.log(data)
   })
 }
 window.global = {
@@ -14,4 +16,7 @@ window.global = {
     return fetch(url).then(res => res.json())
   }
 }
+
+
+
 window.onload = init
