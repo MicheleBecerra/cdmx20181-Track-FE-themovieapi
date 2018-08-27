@@ -46,15 +46,12 @@ const render = (movies) => {
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenterTitle">${element.Title}</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+              <h2 class="modal-title" id="exampleModalCenterTitle">${element.Title}</h2>
             </div>
             <div class="modal-body">
             <img src="${element.Poster}">
-            <p> Año: ${element.Year}</p>
-            <p> Tipo: ${element.Type}</p>
+            <h4> Año: ${element.Year}</h4>
+            <h4> Tipo: ${element.Type}</h4>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

@@ -1,10 +1,10 @@
 window.initializeFirebase = () => {
   firebase.initializeApp({
-    apiKey: 'AIzaSyDTQxIGSpzctRB7urZpCf5DqK6SDCZY0w4',
-    authDomain: 'crud-proyect.firebaseapp.com',
-    databaseURL: 'https://crud-proyect.firebaseio.com',
-    projectId: 'crud-proyect',
-    storageBucket: 'crud-proyect.appspot.com',
-    messagingSenderId: '816471050539'
+    apiKey: 'AIzaSyDOgg-hQGU_h2OVup-ZIsDI_137joSDifA',
+    authDomain: 'proyecto-5-coworking-developer.firebaseapp.com',
+    databaseURL: 'https://proyecto-5-coworking-developer.firebaseio.com',
+    projectId: 'proyecto-5-coworking-developer',
+    storageBucket: 'proyecto-5-coworking-developer.appspot.com',
+    messagingSenderId: '632752209221'
   })
 }

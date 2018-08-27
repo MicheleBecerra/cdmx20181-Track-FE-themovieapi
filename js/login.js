@@ -13,7 +13,7 @@ btnLogin.addEventListener('click', e => {
   const auth = firebase.auth()
   const promise = auth.signInWithEmailAndPassword(email, pass)
   promise.then(result => {
-    location.href = ('adminView.html')
+    location.href = ('../index.html')
   })
   promise.catch(error => {
     let errorCode = error.code
