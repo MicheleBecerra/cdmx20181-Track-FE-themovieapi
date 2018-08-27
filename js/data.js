@@ -2,11 +2,11 @@ const apikey = 'ea7bbac6'
 let search = ' '
 
 const init = (api, search) => {
-  let url = 'https://www.omdbapi.com/?apikey=' + api + '&s=' + search ;
+  let url = 'https://www.omdbapi.com/?apikey=' + api + '&s=' + search
 
   global.getData(url).then((data) => {
     render(data.Search)
-  //console.log(data)
+  // console.log(data)
   })
 }
 window.global = {
@@ -17,6 +17,4 @@ window.global = {
   }
 }
 
-
-
-window.onload = init
+// window.onload = init

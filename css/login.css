@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+   background-image: url("../imagenes/portada-login.png");
+   background-size: 70%;
+   
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    margin:100px auto;
+    display:block;
+    
+}

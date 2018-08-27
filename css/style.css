@@ -4,18 +4,18 @@
     padding: 0;
 }
 body {
-    height:1000px;
-    background-image: url("../imagenes/tapeteFondo.jpg");
+    height:800px;
+    background-color: black;
+    
+
     width: 100%;
     margin: 0;
     padding: 0;
   }
   h1{
-      padding-bottom: 80px;
+      padding-bottom: 60px;
   }
-  h4{
-    color:  #F0F8FF;
-  }
+
   .navbar {
       height: 100px;
       padding: 0;
@@ -35,19 +35,7 @@ body {
     margin-left: 45px;
     margin-right: 45px;
   }
-  .nav-item{
-    background-color: rgb(105, 105, 105);
-  }
 
-  /*.module {
-     Demo-Specific Styles 
-    background: #eaeaea;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 250px;
-  }*/
-  
   /* If Grid is supported, remove the margin we set for the fallback */
   @supports (display: grid) {
     .module {
